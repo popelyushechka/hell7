@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Человек-паук</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="upper"><img src="./img4.jpg" width="900" height="300" alt=""></div>
+        </header>
+        <h2 class="header">Как хорошо ты знаешь Человека-паука?</h2>
+        <p id="question"></p>
+        <p><input type="radio" name="variant" id="y1"><span  id = "a1"></span></p>
+        <p><input type="radio" name="variant" id="y2"><span  id = "a2"></span></p>
+        <p><input type="radio" name="variant" id="y3"><span  id = "a3"></span></p>
+        <p><input type="radio" name="variant" id="y4"><span  id = "a4"></span></p>
+
+        <button id = "btn">Ответить</button>
+    <div class="right_div hidden" id = "right_div">
+        <p class="right" id="right">Верный ответ</p>
+        <button id = "btn2">Дальше</button>
+    </div>
+    <div class="wrong_div hidden" id="wrong_div">
+        <p class="wrong" id="wrong">Неверный ответ</p>
+        <button id = "btn1">Правильный ответ</button>
+        <p id="answer" class = "hidden"></p>
+    </div>
+
+    
+    </div>
+    <input type="hidden" value = "0" id = "n_question">
+    
+    <script src="js.js"></script>
+</body>
+</html>
